@@ -1,0 +1,9 @@
+FlatRent,12000,27.07.2017,Rent
+Electricity,1000,14.07.2017,Utilities
+Gas,1000,14.07.2017,Utilities
+Vodafone,1269,14.07.2017,Communications
+o2Internet,606,14.07.2017,Communications
+MashHanaDinner,2100,14.07.2017,Restaurants
+BugsyBarCocktails,850,14.07.2017,Alcohol
+CameraPayment,2200,17.07.2017,Electronics
+Blabla,9999,20.07.2017,RandomShit
