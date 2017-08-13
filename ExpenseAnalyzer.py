@@ -46,7 +46,7 @@ def ExpTotal(expDict):
 def ExpPerCategory(expDict):
 
     # Dictionary with description of all expense categories.
-    CategoryDescription = {"Rent": "Monthly flat rent payment",
+    categorydescription = {"Rent": "Monthly flat rent payment",
                            "Communications": "Phone and internet payments",
                            "Utilities": "Monthly payments for gas and electricity",
                            "Entertainment": "Any kind of entertainment activities or purchases",
@@ -55,6 +55,7 @@ def ExpPerCategory(expDict):
                            "Sports": "Anything sports related. Supplements, training...",
                            "Self-Development": "Purchasing courses and educational materials",
                            "Alcohol": "Expenses on alcohol",
+                           "Home": "Home-related expenses",
                            "Electronics": "Expenses on electronic gadgets",
                            "Clothes": "Expenses on new clothes",
                            "Food": "Regular food expenses",
@@ -63,6 +64,7 @@ def ExpPerCategory(expDict):
                            "Travel": "Anything travel related. Tickets, accommodation etc.",
                            "Taxi": "Taxi expenses",
                            "Work-related": "Expenses during working hours",
+                           "Unplanned": "Uncategorized unplanned expenses",
                            "Unidentified": "Uncategorized or incorrectly categorized expenses"}
 
     categories = {"Rent": 0,
@@ -74,6 +76,7 @@ def ExpPerCategory(expDict):
                   "Sports": 0,
                   "Self-Development": 0,
                   "Alcohol": 0,
+                  "Home": 0,
                   "Electronics": 0,
                   "Clothes": 0,
                   "Food": 0,
@@ -82,6 +85,7 @@ def ExpPerCategory(expDict):
                   "Travel": 0,
                   "Taxi": 0,
                   "Work-related": 0,
+                  "Unplanned": 0,
                   "Unidentified": 0}
 
     for key in expDict:
