@@ -132,3 +132,4 @@ def ExpenseTime(expDict):
         print("On {} you've spend {} CZK".format(key, ExpenseInTime[key]))
 
 ExpenseTime(expDict)
+# ahoj
